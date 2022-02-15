@@ -1,4 +1,4 @@
-# Organizing Grasshopper Scripts
+# [[Summary|Organizing GH_Scripts]]
 Created : 15-02-2022 11:37
 
 * Need for a style guideline like PEP8 in Python.
@@ -15,7 +15,6 @@ Created : 15-02-2022 11:37
 * Use Worksessions and Maintain file paths (Split into multiple files)
 * It is easier to comment 100 lines in a scripting component than to create 100 comments on the grasshopper canvas. UML Diagrams are better suited to represent the flow.
 * Any file over 100 components is too big - David Rutten
-* 
 
 ## Suggested Ideas
 * Scribbles / Import Rhino sketch as Scribbles
@@ -31,9 +30,12 @@ Created : 15-02-2022 11:37
 * Hidden wires and relays for cleaning up.
 * Template with professional information can be used for companies.
 * Use Wire Injector plugin.
-* Use Telepathy Plugin.
-* Use Sunglasses Plugin.
-* Use Bifocals Plugin.
+* Use Plugins:
+	1. Telepathy
+	2. Sunglasses
+	3. Bifocals
+	4. SnappingGecko
+	5. Autograph
 * Use smaller monitor.
 
 ## SOLID / KISS Principles
@@ -45,6 +47,7 @@ Created : 15-02-2022 11:37
 * Provide UML diagram / documentation.
 * Move proven tools into a plugin.
 * Try to reduce external dependencies.
+* Using .ghx (XML) format can help with source control.
 
 ## References
 1. https://discourse.mcneel.com/t/commenting-in-grasshopper/137346
@@ -52,7 +55,10 @@ Created : 15-02-2022 11:37
 3. https://discourse.mcneel.com/t/grasshopper-best-practices/86120
 4. https://discourse.mcneel.com/t/whats-your-largest-grasshopper-script-the-hall-of-shame/60594
 5. https://discourse.mcneel.com/t/vertical-slides/50937/18
-
-## Image References
-1. https://aws1.discourse-cdn.com/mcneel/uploads/default/original/4X/d/0/b/d0b941e1b02a1971a095167f63db3066f48dfe6c.jpeg
-2. 
+6. https://aws1.discourse-cdn.com/mcneel/uploads/default/original/4X/d/0/b/d0b941e1b02a1971a095167f63db3066f48dfe6c.jpeg
+7. https://www.food4rhino.com/en/app/telepathy
+8. https://www.food4rhino.com/en/app/sunglasses
+9. https://www.food4rhino.com/en/app/bifocals
+10. https://www.food4rhino.com/en/app/snappinggecko
+11. https://www.food4rhino.com/en/app/autograph
+12. https://github.com/garciadelcastillo/gh-sharp/blob/master/GUIDELINES.md

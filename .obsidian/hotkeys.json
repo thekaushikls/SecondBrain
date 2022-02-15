@@ -2,7 +2,7 @@
   "insert-template": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "ArrowDown"
     }
