@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "FleetingNotes/The Golden Circle.md",
+            "file": "FleetingNotes/Organizing Grasshopper Scripts.md",
             "mode": "source",
             "source": false
           }
@@ -69,13 +69,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FleetingNotes/The Golden Circle.md",
+                "file": "FleetingNotes/Organizing Grasshopper Scripts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
@@ -89,15 +89,15 @@
   },
   "active": "f0a0fa10a732394b",
   "lastOpenFiles": [
+    "FleetingNotes/Organizing Grasshopper Scripts.md",
+    "FleetingNotes/3 Reasons Why Your Grasshopper Definitions Should Be Clean & Documented.md",
+    "FleetingNotes/Best Practices in Grasshopper.md",
+    "FleetingNotes/Programming principles.md",
     "FleetingNotes/The Golden Circle.md",
+    "FleetingNotes/Organising Grasshopper Scripts.md",
     "Templates/Note Template.md",
     "PermanentNotes/What is the Second Brain.md",
     "FleetingNotes/The Zettelkasten Method.md",
-    "LiteratureNotes/Zettelkasten using Obsidian.md",
-    "PermanentNotes/The Second Brain.md",
-    "FleetingNotes/Zettelkasten using Obsidian.md",
-    "PermanentNotes/Creating a Second Brain.md",
-    "LiteratureNotes/The Zettelkasten Method.md",
-    "Templates/Map of Contents.md"
+    "LiteratureNotes/Zettelkasten using Obsidian.md"
   ]
 }
