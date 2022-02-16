@@ -17,6 +17,8 @@ The reason behind creating a Zettelkasten database is to try to link different a
 
  I personally believe being able to think across multiple streams is useful to solve problems with a different view. Maybe following the Zettelkasten method would lead to more divergent thought processes.
 
+I make notes on papers, sometimes even sketches to understand something. But, as soon as 'that' project / task is complete, the paper is thrown away, and the knowledge is lost. Zettelkasten can probably help with documentation, and retaining the information, so I can re-use it later for a different project.
+
 ## References
 1. [[FleetingNotes/Zettelkasten using Obsidian]]
 2. [[The Zettelkasten Method]]

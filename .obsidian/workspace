@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b7760a6974f0636a",
+        "id": "433b48064c228a5f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PermanentNotes/Grasshopper3d/The Infamous Spaghetti.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "a7f56410e82d59fd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "LiteratureNotes/Organizing GH_Scripts/Developer Perspective.md",
+            "file": "FleetingNotes/DCEL Topology.md",
             "mode": "source",
             "source": false
           }
@@ -65,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288
+    "width": 300
   },
   "right": {
     "id": "35f2a9e275680db8",
@@ -81,14 +69,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PermanentNotes/Grasshopper3d/The Infamous Spaghetti.md",
+                "file": "FleetingNotes/DCEL Topology.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -99,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b7760a6974f0636a",
+  "active": "433b48064c228a5f",
   "lastOpenFiles": [
-    "PermanentNotes/Grasshopper3d/The Infamous Spaghetti.md",
-    "FleetingNotes/Organizing GH_Scripts/Organizing GH_Scripts.md",
-    "FleetingNotes/Organizing GH_Scripts/3 Reasons Why Your Grasshopper Definitions Should Be Clean & Documented.md",
-    "FleetingNotes/Organizing GH_Scripts/Best Practices in Grasshopper.md",
+    "FleetingNotes/DCEL Topology.md",
+    "LiteratureNotes/Organizing GH_Scripts/Summary.md",
     "LiteratureNotes/Organizing GH_Scripts/Developer Perspective.md",
     "LiteratureNotes/Organizing GH_Scripts/Community Builds.md",
-    "LiteratureNotes/Organizing GH_Scripts/Vanilla Strategies.md",
-    "LiteratureNotes/Organizing GH_Scripts/Summary.md",
+    "LiteratureNotes/DCEL Topology.md",
+    "LiteratureNotes/Zettelkasten using Obsidian.md",
     "FleetingNotes/Elements of a City.md",
-    "FleetingNotes/The Zettelkasten Method.md"
+    "FleetingNotes/The Golden Circle.md",
+    "FleetingNotes/The Zettelkasten Method.md",
+    "FleetingNotes/Organizing Grasshopper Scripts.md"
   ]
 }
