@@ -6,5 +6,6 @@
   "trashOption": "system",
   "promptDelete": false,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Resources"
 }
