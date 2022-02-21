@@ -23,8 +23,33 @@ Created : 16-02-2022 10:13
 
 `Edge(startPoint, endPoint, *twinEdge, *prevEdge, *nextEdge, *refFace*)`
 
+* Polygon direction can be found using the **`SIGNED AREA`**  of triangle.
+	* if Area < 0 -> Clockwise / Right-Hand-Turn
+	* If Area > 0 -> Anti-Clockwise / Left-Hand-Turn
+	* If Area is 0 -> Points are collinear.
+* Direction of any polygon can be found by looping through **`PREVIOUS, CURRENT, NEXT`** 
+
+* DCEL structure stores three kinds of objects,
+	1. Vertices
+	2. Faces
+	3. Half-Edges
+
+* Half-Edge stores five references,
+	1. Reference to Origin Vertex
+	*(`destination of he1 = he1.twin.origin`)* or
+	*(`destination of he1 = he1.next.origin`)*
+	1. Reference to Origin Face
+	2. Reference to Prev / Next Half-Edges
+	3. Reference to it's Twin Half-Edge
+	4. Reference to Twin Face
+
+* Each Face stores,
+	1. Reference to any one Half-Edges. Every other edge(along with the origin_vertex) can be found from this one edge)
+
 ## References
 1. https://www.youtube.com/watch?v=enb13mZ7Pq4&list=PLtTatrCwXHzEqzJMaTUFgqoCNllgwk4DH
 2. https://www.youtube.com/watch?v=iyU6UVrg__o
 3. https://github.com/t1jsh111/2IMA15
 4. https://github.com/Gimly/DoublyConnectedEdgeList
+5. https://w3.cs.jmu.edu/bowersjc/page/courses/spring17/cs480/labs/processing1/
+6. https://w3.cs.jmu.edu/bowersjc/page/courses/spring17/cs480/labs/dcel/
